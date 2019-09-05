@@ -1,4 +1,4 @@
-# Graphic Design 2
+# Graphic Design 
 
 Projects for GD2
 
