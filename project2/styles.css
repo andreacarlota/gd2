@@ -1,0 +1,52 @@
+div.card {
+    height: 75%;
+    width: 342px;
+    padding: 20px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    /* i saw this online, but is not working, i don't understand how to constrain stuff to the box on the div ¯\_(ツ)_/¯ */
+}
+
+
+h1.articletitle {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 800;
+}
+
+h1:hover {
+    color: rgb(255, 235, 46);
+}
+
+p.abstract {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 300;
+
+}
+
+p.authorsname {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 600;
+}
+
+p.authorsname:hover {
+    color: rgb(242, 17, 91);
+}
+
+p.tags {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 600;
+}
+
+p.tags:hover {
+    color: rgb(60, 214, 68)
+}
+
+p.date {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 600;
+
+}
+
+p.date:hover {
+    color: rgb(31, 54, 246)
+}
