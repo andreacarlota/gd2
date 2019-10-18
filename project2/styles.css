@@ -1,52 +1,114 @@
-div.card {
-    height: 75%;
-    width: 342px;
-    padding: 20px;
-    border: 1px solid black;
-    word-wrap: break-word;
-    /* i saw this online, but is not working, i don't understand how to constrain stuff to the box on the div ¯\_(ツ)_/¯ */
+* {
+    box-sizing: border-box;
 }
 
-
-h1.articletitle {
+body {
+    background-color: rgb(255, 255, 255, 1);
+    color: rgb(0, 0, 0, 1);
     font-family: 'Be Vietnam', sans-serif;
+}
+
+section {
+    width: 400px;
+    padding-bottom: 15px;
+    margin: auto;
+    display: inline-block;
+}
+
+h2,
+ul,
+p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+a:link,
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
     font-weight: 800;
+    font-size: 24px;
+    text-decoration: none;
 }
 
-h1:hover {
-    color: rgb(255, 235, 46);
+p {
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-p.abstract {
-    font-family: 'Be Vietnam', sans-serif;
-    font-weight: 300;
-
+a+a {
+    margin-left: 5px;
 }
 
-p.authorsname {
-    font-family: 'Be Vietnam', sans-serif;
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
     font-weight: 600;
 }
 
-p.authorsname:hover {
+ul {
+    list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.abstract {
+    color: rgb(0, 0, 0, .80)
+}
+
+
+.artdate {
+    float: right;
+}
+
+.artdate a:hover {
+    color: rgb(28, 57, 247);
+    text-decoration: underline;
+}
+
+.articlename a:hover {
+    color: rgb(255, 205, 41);
+    text-decoration: underline;
+}
+
+.authorinfo {
+    text-align: right;
+    text-transform: uppercase;
+
+}
+
+.authorinfo a:hover {
     color: rgb(242, 17, 91);
+    text-decoration: underline;
+
 }
 
-p.tags {
-    font-family: 'Be Vietnam', sans-serif;
+.readmore {
     font-weight: 600;
 }
 
-p.tags:hover {
-    color: rgb(60, 214, 68)
+.readmore a:hover {
+    text-decoration: underline;
 }
 
-p.date {
-    font-family: 'Be Vietnam', sans-serif;
-    font-weight: 600;
+.tags a:hover {
+    color: rgb(83, 194, 92);
+    text-decoration: underline;
 
-}
-
-p.date:hover {
-    color: rgb(31, 54, 246)
 }
