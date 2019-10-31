@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+section {
+    display: inline-block;
+    margin: auto;
+    padding-bottom: 15px;
+    width: 400px;
+
+}
+
+h2,
+ul,
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:link,
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a+a {
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.abstract {
+    color: rgb(0, 0, 0, .80);
+}
+
+
+.articledate {
+    float: right;
+}
+
+.articledate a:hover {
+    color: rgb(28, 57, 247);
+    text-decoration: underline;
+}
+
+.articlename a:hover {
+    color: rgb(255, 205, 41);
+    text-decoration: underline;
+}
+
+.authorinfo {
+    text-align: right;
+    text-transform: uppercase;
+
+}
+
+.authorinfo a:hover {
+    color: rgb(242, 17, 91);
+    text-decoration: underline;
+
+}
+
+.readmore {
+    font-weight: 600;
+}
+
+.readmore a:hover {
+    text-decoration: underline;
+}
+
+.tags a:hover {
+    color: rgb(83, 194, 92);
+    text-decoration: underline;
+
+}
+
+/* Fonts used: "Be Vietnam in weight: 300, 600, 800.
+Font source: https://fonts.google.com/specimen/Be+Vietnam
+Img source: outnow.ch  https://outnow.ch/Movies/2005/EverythingIsIlluminated/Bilder/005 */
