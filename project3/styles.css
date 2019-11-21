@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    transition: 400ms;
+}
+
+
+body {
+    background-color: #163346;
+    margin: auto;
+
+}
+
+div {
+    background-color: #1e2019;
+    margin: auto;
+    max-width: 70%;
+    padding: 1.25%;
+
+
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset span {
+    display: block;
+}
+
+
+
+
+header {
+    background-color: #D1D5DE;
+
+
+}
+
+h1 {
+
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #163346;
+    text-transform: uppercase;
+}
+
+input[type="radio"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 3px solid #eaecf0;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+
+}
+
+input[type="checkbox"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 3px solid #eaecf0;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background-color: #71f79f;
+    outline-color: #D1D5DE
+}
+
+input[type="radio"]:checked+label,
+input[type="checkbox"]:checked+label {
+    text-decoration-line: underline;
+    text-decoration-color: #71F79F;
+
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    border: 3px solid #71F79F;
+    background-color: #555555;
+
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    background-color: #1e2019;
+    border: 3px solid #D1D5DE;
+
+
+}
+
+input {
+    background-color: #eaecf0;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 22px;
+    height: 45px;
+    width: 50%;
+    padding: 1.5%;
+    border: 0px solid;
+
+
+}
+
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus {
+    background-color: #FFF;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="number"]:valid {
+    border-bottom: solid 3px #71F79F;
+}
+
+
+input[type="email"]:invalid {
+    border-bottom: solid 3px #c81536;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+
+
+label,
+legend,
+p {
+    color: #FFF;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 22px;
+
+}
+
+
+select {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+textarea {
+    width: 100%;
+    background-color: #D1D5DE;
+
+
+}
+
+textarea:focus {
+    background-color: #FFF;
+    border: solid 3px #71F79F
+}
+
+
+.abilities-icon {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.shield-icon {
+    width: 240px;
+    height: 240px;
+}
+
+.button-reset {
+
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+
+}
+
+​ .button-reset[disabled] {
+    cursor: default;
+
+}
+
+
+
+.categoryinfo {
+    color: #cececd;
+    font-family: 'BenchNine', sans-serif;
+    font-weight: 300;
+
+}
+
+
+.describe-powers {
+    height: 240px;
+
+}
+
+.header {
+    left: 0;
+    max-width: 100%;
+    max-height: auto;
+    text-align: center;
+    top: 0;
+
+}
+
+.quote {
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+
+
+
+}
+
+.personalcharacteristics-left-column {
+    display: inline-block;
+}
+
+.personalcharacteristics-right-column {
+    display: inline-block;
+}
+
+
+
+.options {
+    display: inline-block;
+}
+
+
+.select-abilities {
+    width: 80%;
+    max-width: 150px;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+.selectors {
+    background-color: #eaecf0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+
+@media screen and (min-width: 375px) {
+
+    .select-abilities,
+    .selectors {
+        display: inline-block;
+
+    }
+
+
+}
