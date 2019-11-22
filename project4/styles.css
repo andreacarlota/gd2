@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 420px;
+}
+
+div {
+    display: inline-block;
+    width: 30%;
+}
+
+li {
+    display: inline-block;
+}
+
+li+li {
+    background-color: pink;
+}
