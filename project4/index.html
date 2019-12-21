@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400 &display=swap" rel="stylesheet">
+    <title>Project 4</title>
+</head>
+
+<body id="top">
+    <nav>
+        <a href="#top"> <img class="button-home" src="images/button home-white.svg"> </a>
+        <ul>
+            <li><a class="navigation" href="#speakers">Speakers</a></li>
+            <li><a class="navigation" href="#schedule">Schedule</a></li>
+            <li><a class="navigation" href="#tickets">Tickets</a></li>
+
+        </ul>
+    </nav>
+
+
+    <section class="home">
+
+        <img class="home-svg" src="images/58festival.svg">
+        <p class="date">
+            Caracas April 11th, 2020
+        </p>
+    </section>
+
+    <section id="speakers">
+        <h2> Speakers</h2>
+
+        <div class="speakerinfo" id="tamara"> <img src="images/tamara2.png" class="speakerphoto" alt="speakerphoto">
+            <h3 class="speaker-name"> Tamara Hadeed </h3>
+
+            <p class="speaker-bio"> Tamara is a Graphic Artist passionate about character design and traditional
+                animation.
+                Her body of work is full of powerful women, colorful environments and abstract storytelling.
+                Over the years worked she has worked in many creative fields as: 2D animation for TV, creative agencies
+                and also as a Creative director for WIZZWEAR. She share some awards with incredible people; a Latin
+                Grammy Award (2007) for best childrens video where she participated as Art Direction assistant and
+                colorized all scenes; and 2 Ojo de Iberoamerica (2009) awards bronze and silver for a Chevrolet
+                Transformer campaign in which she participated as Art Director and Designer.
+            </p>
+            <a href="https://instagram.com/uhworks"><img class="ig-speaker" src="images/instagram-logo black.svg"></a>
+        </div>
+        <div class="speakerinfo" id="alec"> <img class="speakerphoto" src="images/alec2.png" alt="speaker2photo">
+            <h3 class="speaker-name"> Alec Mendez </h3>
+
+            <p class="speaker-bio"> Alec Méndez is a Graphic Artist, Social Communicator and Multidisciplinary Creative
+                Director based in
+                Caracas, Venezuela.
+                Founder and Editor in chief of the Latin American design and trends portal Wearepicta.com, Alec have
+                been part of some of the most interesting creative projects in Venezuela, among which are: the Simpl3
+                audiovisual collective, the event "Through the middle of the street "and the Switch entrepreneurs meet.
+            </p>
+            <a href="https://instagram.com/alecmendezv"> <img class="ig-speaker"
+                    src="images/instagram-logo black.svg"></a>
+        </div>
+        <div class="speakerinfo" id="michael"> <img src="images/burner.png" class="speakerphoto" alt=" speaker3photo">
+            <h3 class="speaker-name"> Michael Wong </h3>
+
+
+            <p class="speaker-bio"> Visual Communicator born in Caracas, Venezuela. A former student of Prodiseño Visual
+                Communication &
+                Design school. His work is focused on Calligraphy, Typography, Illustration, Editorial Design, Graffiti,
+                and skateboarding.</p>
+            <a href="https://instagram.com/burnerwong"><img class="ig-speaker"
+                    src="images/instagram-logo black.svg"></a>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <h2> Schedule</h2>
+        <div class="schedule">
+
+            <div class="time-slot">
+                <div class="details"> 10 am - 11 am
+                </div>
+                <div class="details">
+                    <h3> Brunch and Networking</h3>
+                </div>
+            </div>
+            <div class="time-slot">
+                <div class="details"> 11 am - 1 pm
+                </div>
+                <div class="details">
+                    <h3>
+                        <a href="#Tamara">Tamara Hadeed </a>
+                    </h3>
+                </div>
+                <p class="details"> Streetwear Brand Creation:
+                    Learn from how to startwith a concept to how to market it in an online store.
+                </p>
+            </div>
+            <div class="time-slot">
+                <div class="details"> 1 pm - 2 pm
+                </div>
+                <div class="details">
+                    <h3>Lunch break</h3>
+                </div>
+            </div>
+
+            <div class="time-slot">
+                <div class="details"> 2 pm - 5 pm
+                </div>
+                <div class="details">
+                    <h3><a href="#michael"> Michael Wong</a></h3>
+                </div>
+                <p class="details"> Workshop: Typography Fundamentals
+                </p>
+            </div>
+            <div class="time-slot">
+                <div class="details"> 5 pm - 7 pm
+                </div>
+                <div class="details">
+                    <h3><a href="#alec">Alec Mendez </a></h3>
+                </div>
+                <p class="details"> How to promote your event in Social Media:
+                    Use of Digital Strategy, user psychology, digital branding.
+                </p>
+            </div>
+            <div class="time-slot">
+                <div class="details"> 7 pm - 8 pm
+                </div>
+                <div class="details">
+                    <h3>Closing After Party</h3>
+                </div>
+            </div>
+
+
+    </section>
+
+    <section class="buy-tickets" id="tickets">
+        <h2> Tickets</h2>
+        <form action="">
+            <fieldset>
+                <p class="ticket-selection">Select your ticket</p>
+                <span> <input id=" ticket-1" type="radio" name="tickets" class="sr-only ticket-input" required>
+                    <label for="ticket-1" class="ticket-button"> Ticket</label> </span>
+                <span> <input id="ticket-2" type="radio" name="tickets" class="sr-only ticket-input" required>
+                    <label for="ticket-2" class="ticket-button"> Student Ticket</label> </span>
+                <span> <input id="ticket-3" type="radio" name="tickets" class="sr-only ticket-input" required>
+                    <label for="ticket-3" class="ticket-button"> Ticket + Drink </label> </span>
+            </fieldset>
+
+            <fieldset class="register">
+                <span> <label for="name">First Name</label>
+                    <input id="name" type="text" required></span>
+
+                <span><label for="lastname">Last Name</label>
+                    <input for="lastname" type="text" required></span>
+
+                <span><label for="email">Email</label>
+                    <input for="email" type="email" required> </span>
+
+                <span> <label for="phone">Phone</label>
+                    <input type="text" class="phone" for="phone" required></span>
+
+                <span> <label for="tickets">Tickets</label>
+                    <input for="tickets" type="number" required> </span>
+
+                <span> <input for="subscribe" type="checkbox">
+                    <label for="suscribe"> Suscribe to our newsletter </label></span>
+                <span> <input class="submit-button" type="submit" value="Register!""></input>
+                </span>
+
+            </fieldset>
+
+            
+        </form>
+
+        <div class=" footer">
+                    <a class="top-button" href="#top"> TOP</a>
+                    </div>
+</body>
+
+
+</html>
